@@ -1,0 +1,17 @@
+{
+  "name": "2015-aug-bear",
+  "version": "1.0.0",
+  "description": "這個簡單程式嘗試在8月25號至8月27號兩日反彈日中找出投資者對那些股搏反彈比較有信心",
+  "main": "index.js",
+  "scripts": {
+    "postscrap": "npm install",
+    "analyze": "babel-node analyze.js",
+    "scrap": "babel-node scraper.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^1.4.2",
+    "superagent": "^1.3.0"
+  }
+}
